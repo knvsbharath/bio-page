@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image:linear-gradient( 111.6deg,  rgba(114,167,232,1) 9.4%, rgba(253,129,82,1) 43.9%, rgba(253,129,82,1) 54.8%, rgba(249,202,86,1) 86.3% );
+            min-height: 100vh;
+            background-size: cover;
+        }
+
+        .register {
+            backdrop-filter: blur ;
+            color: black;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 1px 20px;
+            margin-left: 35%;
+            margin-top: 1%;
+            width: 40%;
+            border-radius: 18px;
+            border: 2px solid white;
+        }
+        .input-group input{
+        color: black;
+        padding: 10px;
+        width: 30%;
+        text-align: center;
+        border-radius: 25px;
+        background-color: white;
+        border: 1px solid black;
+        }
+        .input-group select{
+            width: 24%;
+            padding: 5px;
+            text-align: center;
+            color: black;
+            border-radius: 20px;
+        }
+        
+        .input-group button{
+             border: 2px solid black;
+        color: white;
+        background-color:black;
+        padding: 8px;
+        width: 45%;
+        border-radius: 20px;
+        }
+        .text{
+           text-align: center;
+           color: black;
+           font-family: sans-serif;
+           
+        }
+        
+        .file{
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="./login.html" class="register">
+
+        <h1><u>REGISTER</u></h1>
+
+        <div class="input-group">
+
+            <p><input type="text" placeholder="Enter your name"></p>
+        </div>
+
+        <div class="input-group">
+
+            <p><input type="email" placeholder="Enter the E-mail"></p>
+        </div>
+
+        <div class="input-group">
+
+            <p><input type="password" placeholder=" Enter the Password"></p></div>
+
+            <div class="input-group">
+
+                <p><input type="password" placeholder="Confirm Password"></p></div>
+
+
+                <div class="gender">
+                    <p><b><u>Gender:</u></b></p>
+                    <input type="radio" name="gender" />Male
+                    <input type="radio" name="gender">Female
+
+
+
+                    <p><u>Qualification</u></p>
+
+                    <input type="checkbox" />10th
+                        <input type="checkbox" />Diploma
+                            <input type="checkbox" />Btech
+
+                </div>
+                
+
+                <div class="input-group">
+                    <p>
+                        <select>
+                            <option value="">Select your city</option>
+                            <option value="">Vijayawada</option>
+                            <option value="">Vizag</option>
+                            <option value="">Hyderabad</option>
+                            <option value="">Mumbai</option>
+                            <option value="">Delhi</option>
+                        </select>
+                    </p>
+
+                </div>
+                <div class="text"><p><textarea placeholder="enter address here"></textarea></p></div>
+                
+                    
+
+                
+                <div class="file">
+                     <p><input type="file" placeholder="picture"></p>
+
+                </div>
+                <div class="input-group">
+                    <button>SUBMIT</button>
+
+                </div>
+    </form>
+</body>
+
+</html>
